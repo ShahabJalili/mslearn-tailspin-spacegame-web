@@ -1,6 +1,6 @@
 parameters:
   buildConfiguration: 'Release'
-~/mslearn-tailspin-spacegame-web/templates
+
 steps:
 - task: DotNetCoreCLI@2
   displayName: 'Build the project - ${{ parameters.buildConfiguration }}'
